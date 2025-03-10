@@ -1,0 +1,10 @@
+from dotenv import load_dotenv
+import os
+
+# .env dosyasını yükle
+load_dotenv('/content/.env')
+
+# API anahtarlarını kontrol et
+for key, value in os.environ.items():
+    if "API" in key or "TOKEN" in key or "SECRET" in key:
+        print(f"{key} = {value}")
