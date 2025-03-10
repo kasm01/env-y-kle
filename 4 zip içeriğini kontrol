@@ -1,0 +1,5 @@
+# .env dosyasının varlığını kontrol et
+!ls -a /content/OKX-bot-main
+
+# .env dosyasını ana dizine taşı
+!cp /content/OKX-bot-main/.env /content/
