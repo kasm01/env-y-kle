@@ -1,0 +1,5 @@
+# ZIP dosyasını Colab içerisine kopyala
+!cp /content/drive/MyDrive/OKX-bot-main.zip /content/
+
+# ZIP dosyasını çıkar
+!unzip -o /content/OKX-bot-main.zip -d /content/OKX-bot-main
